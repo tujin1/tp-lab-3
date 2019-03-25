@@ -1,5 +1,5 @@
 #include "DateTime.h"
-}
+
 DateTime::DateTime(const DateTime & DateTime)
 {
 	cur = DateTime.cur;
