@@ -11,7 +11,7 @@ double calcDelta (){
 	Circle pool(3);
 	Circle road(pool.getRadius() + 1);
 	double ans1 = road.getArea() - pool.getArea();
-	double ans2 = road.getFerence;
+	double ans2 = road.getFerence();
 	double ans = 1000 * ans1 + 2000 * ans2;
 	return ans;
 }
