@@ -10,8 +10,7 @@ private:
 	time_t cur;
     string t;
 public:
-    DateTime(const DateTime&); 
-	DateTime();
+   
 	DateTime(int, int, int);
 	string getToday();
 	string getYesterday();

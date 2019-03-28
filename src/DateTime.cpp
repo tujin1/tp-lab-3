@@ -1,14 +1,6 @@
 #include "DateTime.h"
-}
-DateTime::DateTime(const DateTime & DateTime)
-{
-	cur = DateTime.cur;
-}
 
-DateTime::DateTime() 
-{
-	cur = time(0);
-}
+
 DateTime::DateTime( int day,  int month, int year) 
 {
 	cur = time(0);
