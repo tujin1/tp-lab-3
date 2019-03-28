@@ -1,7 +1,7 @@
 
 #include <cmath>
 #include "Circle.h"
-double pi = 3.14;
+double pi = 3.1415;
 Circle::Circle(double r)
 {
 	radius = r;
